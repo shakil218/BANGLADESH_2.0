@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,7 +6,7 @@
     <!-- tailwind css -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- external css -->
-     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <title>Bangladesh 2.0</title>
     <!-- google fonts -->
     <link
@@ -14,7 +14,32 @@
       rel="stylesheet"
     />
   </head>
-  <body>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+  <body class="max-w-7xl mx-auto">
+    <!-- header -->
+    <header>
+      <!-- navbar -->
+      <nav class="flex justify-between items-center py-6">
+        <h3 class="font-bold text-3xl">Bangladesh 2.0</h3>
+        <button
+          class="text-[#006A50] text-[16px] font-semibold border-2 border-[#006A50] rounded-lg px-[15px] py-2.5"
+        >
+          Sign In
+        </button>
+      </nav>
+    </header>
+    <!-- main -->
+    <main>
+      <!-- banner section -->
+      <section class="bg-[#C6E4D6] flex justify-between items-center p-20 rounded-3xl">
+        <div>
+          <p class="text-2xl font-medium text-[#0E0E0E]/50">Bangladesh 2.0</p>
+          <h3 class="text-[56px] font-bold text-[#0E0E0E]">Idea , innovation , <br> vision and challenges in <br> New Bangladesh.</h3>
+          <button class="bg-[#006A50] text-white text-[18px] font-semibold rounded-lg px-[15px] py-2.5">Explore New Bangladesh</button>
+        </div>
+        <img src="assets/hero.png" alt="">
+      </section>
+    </main>
+    <!-- footer -->
+    <footer></footer>
   </body>
 </html>
