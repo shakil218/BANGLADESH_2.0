@@ -14,9 +14,9 @@
       rel="stylesheet"
     />
   </head>
-  <body class="max-w-7xl mx-auto">
+  <body class="bg-[#F1F1F3]">
     <!-- header -->
-    <header>
+    <header class="max-w-7xl mx-auto px-3 lg:px-0">
       <!-- navbar -->
       <nav class="flex justify-between items-center py-6">
         <h3 class="font-bold text-3xl">Bangladesh 2.0</h3>
@@ -28,15 +28,158 @@
       </nav>
     </header>
     <!-- main -->
-    <main>
+    <main class="max-w-7xl mx-auto px-3 lg:px-0">
       <!-- banner section -->
-      <section class="bg-[#C6E4D6] flex justify-between items-center p-20 rounded-3xl">
-        <div>
-          <p class="text-2xl font-medium text-[#0E0E0E]/50">Bangladesh 2.0</p>
-          <h3 class="text-[56px] font-bold text-[#0E0E0E]">Idea , innovation , <br> vision and challenges in <br> New Bangladesh.</h3>
-          <button class="bg-[#006A50] text-white text-[18px] font-semibold rounded-lg px-[15px] py-2.5">Explore New Bangladesh</button>
+      <section
+        class="bg-[#C6E4D6] flex flex-col md:flex-col-reverse lg:flex-row justify-between items-center p-20 rounded-3xl"
+      >
+        <div class="my-10 md:mb-0 md:text-center lg:text-left">
+          <p class="text-xl lg:text-2xl font-medium text-[#0E0E0E]/50">
+            Bangladesh 2.0
+          </p>
+          <h3
+            class="text-2xl md:text-3xl lg:text-[56px] my-4 font-bold text-[#0E0E0E]"
+          >
+            Idea , innovation , <br />
+            vision and challenges in <br />
+            New Bangladesh.
+          </h3>
+          <button
+            class="bg-[#006A50] text-white text-[16px] md:text-[18px] font-semibold rounded-lg px-[15px] py-2.5"
+          >
+            Explore New Bangladesh
+          </button>
         </div>
-        <img src="assets/hero.png" alt="">
+        <img src="assets/hero.png" alt="" />
+      </section>
+      <!-- Pillars of "Bangladesh 2.0 -->
+      <section class="mt-20">
+        <h3
+          class="text-2xl md:text-3xl lg:text-[40px] my-4 font-bold text-[#0E0E0E] mb-8"
+        >
+          Pillars of "Bangladesh 2.0"
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="border border-[#D5D6D8] bg-white p-6 rounded-2xl">
+            <img src="assets/card-icon.png" alt="" />
+            <h3 class="text-xl font-bold text-[#0E0E0E]/80 my-3">Innovation</h3>
+            <p class="text-[16px] font-medium text-[#0E0E0E]/70">
+              Dolor sit amet consectetur elit. Facilis quas, ducimus labore
+              sequi quos
+            </p>
+          </div>
+          <div class="border border-[#D5D6D8] bg-white p-6 rounded-2xl">
+            <img src="assets/card-icon.png" alt="" />
+            <h3 class="text-xl font-bold text-[#0E0E0E]/80 my-3">
+              Sustainability
+            </h3>
+            <p class="text-[16px] font-medium text-[#0E0E0E]/70">
+              Dolor sit amet consectetur elit. Facilis quas, ducimus labore
+              sequi quos
+            </p>
+          </div>
+          <div class="border border-[#D5D6D8] bg-white p-6 rounded-2xl">
+            <img src="assets/card-icon.png" alt="" />
+            <h3 class="text-xl font-bold text-[#0E0E0E]/80 my-3">
+              Infrastructure
+            </h3>
+            <p class="text-[16px] font-medium text-[#0E0E0E]/70">
+              Dolor sit amet consectetur elit. Facilis quas, ducimus labore
+              sequi quos
+            </p>
+          </div>
+          <div class="border border-[#D5D6D8] bg-white p-6 rounded-2xl">
+            <img src="assets/card-icon.png" alt="" />
+            <h3 class="text-xl font-bold text-[#0E0E0E]/80 my-3">
+              Empowerment
+            </h3>
+            <p class="text-[16px] font-medium text-[#0E0E0E]/70">
+              Dolor sit amet consectetur elit. Facilis quas, ducimus labore
+              sequi quos
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- The Vision of Future -->
+      <section class="mt-20">
+        <h3
+          class="text-2xl md:text-3xl lg:text-[40px] my-4 font-bold text-[#0E0E0E] mb-8"
+        >
+          The Vision of Future
+        </h3>
+        <p class="text-[16px] font-medium text-[#0E0E0E]/70 mb-8">
+          Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing
+          cutting-edge technology, promoting inclusive growth, and ensuring
+          sustainability. With initiatives in renewable energy, digital
+          transformation, and robust infrastructure, the country is set to
+          become a global model of development.
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+          <div class="bg-[#5490F5]/20 p-6 rounded-2xl">
+            <img src="assets/card-icon.png" alt="" />
+            <h3 class="text-xl font-bold text-[#0E0E0E]/80 my-3">
+              Digital Transformation
+            </h3>
+            <p class="text-[16px] font-medium text-[#0E0E0E]/70 mb-3">
+              Creating a nationwide digital ecosystem to enhance connectivity
+              and access to services for all citizens.
+            </p>
+            <button
+              class="bg-[#5490F5] text-white text-[16px] font-semibold rounded-lg px-[15px] py-2.5"
+            >
+              Learn More
+            </button>
+          </div>
+          <div class="bg-[#C6E4D6] p-6 rounded-2xl">
+            <img src="assets/card-icon.png" alt="" />
+            <h3 class="text-xl font-bold text-[#0E0E0E]/80 my-3">
+              Green Energy
+            </h3>
+            <p class="text-[16px] font-medium text-[#0E0E0E]/70 mb-3">
+              Investments in solar and wind energy to ensure a sustainable and
+              eco-friendly future.
+            </p>
+            <button
+              class="bg-[#09A15C] text-white text-[16px] font-semibold rounded-lg px-[15px] py-2.5"
+            >
+              Learn More
+            </button>
+          </div>
+          <div class="bg-[#F7EBCF] p-6 rounded-2xl">
+            <img src="assets/card-icon.png" alt="" />
+            <h3 class="text-xl font-bold text-[#0E0E0E]/80 my-3">
+              Modern Infrastructure
+            </h3>
+            <p class="text-[16px] font-medium text-[#0E0E0E]/70 mb-3">
+              Building state-of-the-art infrastructure to support economic
+              growth and global competitiveness.
+            </p>
+            <button
+              class="bg-[#FFC239] text-white text-[16px] font-semibold rounded-lg px-[15px] py-2.5"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+        <div class="border border-[#D5D6D8] bg-white  px-6 py-12 rounded-2xl">
+          <div
+            class=" bg-[url('/assets/quote-bg.png')] bg-no-repeat bg-left-top"
+          >
+            <p>
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              quas, ducimus labore sequi quos deserunt optio id repellendus
+              tempora veniam amet porro corporis exercitationem numquam debitis
+              culpa laudantium odio, velit vel minus sit? Veritatis aut maiores
+              ducimus fugit error ex sit, dignissimos eum tempora perferendis a
+              rem culpa ab aliquid modi? Est vitae neque esse, cumque, quam
+              tenetur rem earum eaque mollitia modi ipsum aspernatur,
+              dignissimos excepturi aliquam architecto soluta necessitatibus
+              vero?"
+            </p>
+            <h3>Dr. Muhammad Yunus</h3>
+            <p>Chief Adviser of the People's Republic of Bangladesh</p>
+          </div>
+        </div>
       </section>
     </main>
     <!-- footer -->
